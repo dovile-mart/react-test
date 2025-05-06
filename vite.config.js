@@ -11,7 +11,8 @@ export default defineConfig({
   },
   server: {
     cors: {
-      origin: '*',
+      origin: ['/https://dovile-mart.github.io'],
+      methods: 'GET,HEAD,PUT,PATCH,DEETE'
     },
   },
 })
