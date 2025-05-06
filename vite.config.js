@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/https://github.com/dovile-mart/react-test/',
+  base: '/react-test/',
   plugins: [react()],
   test: {
     globals: true,
